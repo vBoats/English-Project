@@ -41,18 +41,67 @@ li a {
 .bigRow {
   display: inline-block;
 }
-.vl {
+.vl1 {
   margin-top: 40px;
-  margin-left: 50px;
   border-left: 2px solid lightgray;
-  height: 400px;
+  height: 525px;
   float: left;
 }
 .jobDescription {
   float: left;
 }
-
 .jobDescriptionTitle {
+  width: 750px;
+  margin-left: 75px;
+  margin-top: 75px;
+  margin-right: 50px;
+  font-family: 'Comfortaa';
+  font-size: 30px;
+  color: black;
+}
+.jobDescriptionAbout {
+  width: 750px;
+  margin-top: 30px;
+  margin-left: 75px;
+  margin-right: 50px;
+  font-family: 'Comfortaa';
+  font-size: 22px;
+  color: dimgray;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.qualifications {
+  float: left;
+}
+.qualificationsTitle {
+  width: 750px;
+  margin-left: 75px;
+  margin-top: 75px;
+  margin-bottom: 10px;
+  font-family: 'Comfortaa';
+  font-size: 30px;
+  color: black;
+}
+ul.qualificationsDescription {
+  list-style-type: square;
+  width: 750px;
+}
+ul.qualificationsDescription li {
+  margin-top: 13px;
+  margin-left: 125px;
+  font-family: 'Comfortaa';
+  font-size: 22px;
+  color: dimgray;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+
+
+
+
+.worksCitedTitle {
   width: 750px;
   margin-left: 75px;
   margin-top: 75px;
@@ -60,14 +109,13 @@ li a {
   font-size: 30px;
   color: black;
 }
-
-.jobDescriptionAbout {
-  width: 750px;
-  margin-top: 30px;
-  margin-left: 75px;
+.citation {
+  width: 1400px;
+  margin-top: 50px;
+  padding-left: 75px;
+  text-indent: -30px;
   font-family: 'Comfortaa';
   font-size: 22px;
   color: dimgray;
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: left;
 }

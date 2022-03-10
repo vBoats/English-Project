@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  overflow-x: hidden;
+}
 
 .header {
   width: 1920px;
@@ -44,9 +47,60 @@ li a {
 .vl1 {
   margin-top: 40px;
   border-left: 2px solid lightgray;
-  height: 525px;
+  height: 850px;
   float: left;
 }
+.hl1 {
+  margin-top: 30px;
+  margin-left: 50px;
+  border-top: 2px solid lightgray;
+  width: 850px;
+  float: left;
+}
+.hl2 {
+  margin-top: 30px;
+  border-top: 2px solid lightgray;
+  width: 960px;
+  float: left;
+}
+.hl3 {
+  margin-top: -5px;
+  margin-left: 50px;
+  border-bottom: 2px solid lightgray;
+  width: 1820px;
+  float: left;
+}
+.salaryTitle {
+  width: 750px;
+  margin-left: 75px;
+  margin-top: 75px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  font-family: 'Comfortaa';
+  font-size: 30px;
+  color: black;
+}
+.salarySubTitle {
+  width: 750px;
+  margin-left: 90px;
+  margin-right: 50px;
+  font-family: 'Comfortaa';
+  font-size: 25px;
+  color: black;
+}
+.salaries {
+  width: 750px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 100px;
+  margin-right: 50px;
+  font-family: 'Comfortaa';
+  font-size: 22px;
+  color: dimgray;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .jobDescription {
   float: left;
 }
@@ -82,9 +136,33 @@ li a {
   font-size: 30px;
   color: black;
 }
+
+.advancementOpportunitiesTitle {
+  width: 750px;
+  margin-left: 75px;
+  margin-top: 75px;
+  margin-bottom: 10px;
+  font-family: 'Comfortaa';
+  font-size: 30px;
+  color: black;
+}
+.advancementOpportunitiesDescription {
+  width: 750px;
+  margin-top: 30px;
+  margin-left: 90px;
+  margin-right: 50px;
+  font-family: 'Comfortaa';
+  font-size: 22px;
+  color: dimgray;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
 ul.qualificationsDescription {
   list-style-type: square;
-  width: 750px;
+  width: 900px;
+  position: static
 }
 ul.qualificationsDescription li {
   margin-top: 13px;
@@ -96,6 +174,28 @@ ul.qualificationsDescription li {
   text-justify: inter-word;
 }
 
+.applicationsTitle {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: 'Comfortaa';
+  font-size: 30px;
+  color: black;
+}
+.applicationsDescription {
+  margin-top: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+  text-align: center;
+  font-family: 'Comfortaa';
+  font-size: 22px;
+  color: dimgray;
+  text-justify: inter-word;
+}
+
+.blankSpace {
+  height: 50px;
+}
 
 
 
